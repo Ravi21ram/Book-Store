@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Book Store</title>
+  <style>
+    /* Custom Styles */
+    body {
+      background-color: #f8f9fa; /* Light gray background */
+    }
+    
+    /* Navbar */
+    .navbar {
+      background-color: #007bff; /* Blue navbar background */
+    }
+    
+    .navbar-brand,
+    .nav-link {
+      color: #fff; /* White text for navbar items */
+    }
+    
+    .nav-link:hover {
+      color: #0056b3; /* Darker blue text on hover */
+    }
+    
+    /* Main Content */
+    .container {
+      color: #343a40; /* Dark gray text */
+    }
+    
+    /* Additional Content */
+    .additional-content {
+      padding: 50px 0;
+    }
+    
+    .additional-content h2 {
+      color: #007bff; /* Blue heading */
+      margin-bottom: 30px;
+    }
+    
+    .additional-content p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Book Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="available_books">Available Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="my_books">My Books</a>
+          </li>
+        </ul>
+        <div>
+          <a class="nav-link" href="book_register">New Book Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container text-center my-5">
+    <h1 style="color: #007bff;">WELCOME TO NEW BOOK STORE</h1>
+    <p>
+      We're thrilled to open our doors and invite you to explore the 
+      endless worlds that await between the pages of our books. 
+      Whether you're seeking thrilling adventures, profound insights, 
+      or simply a moment of escape, you'll find it here amidst our shelves. 
+      Our collection spans genres and eras, offering something for every reader,
+      from seasoned bibliophiles to curious newcomers. Join us on this literary 
+      journey as we celebrate the joy of reading and the magic of storytelling.
+      We can't wait to share our love of books with you 
+      and help you discover your next favorite read. Welcome to our book-loving community!
+    </p>
+	<img src="/images/image-1.png" width="360px"/>        </div>
+  </div>
+  
+  <!-- Additional Content Section -->
+  <div class="additional-content container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+			<img src="/images/image-2.png" width="360px"/>        </div>
+        <div class="col-md-6">
+          <h2>Explore Our Latest Arrivals</h2>
+          <p>
+            Dive into our latest arrivals and discover captivating stories waiting to be explored. From gripping thrillers to heartwarming romances, there's something for everyone.
+          </p>
+          <p>
+            With our carefully curated selection, you're sure to find your next favorite read. Visit us today and embark on a new literary adventure!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Additional Content Section -->
+  <div class="additional-content container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+			<img src="/images/image-3.png" width="360px" class="img-fluid" alt="Book Image">
+        </div>
+        <div class="col-md-6 order-md-1">
+          <h2>Join Our Book Club</h2>
+          <p>
+            Become a part of our vibrant book club community and connect with fellow book lovers. Share your thoughts, insights, and recommendations as we explore the world of literature together.
+          </p>
+          <p>
+            Our book club meetings are filled with lively discussions, engaging activities, and of course, plenty of good books. Don't miss out on the fun – join us today!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Additional Content Section -->
+  <div class="additional-content container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+			<img src="/images/image-4.png" width="360px" class="img-fluid" alt="Book Image">
+        </div>
+        <div class="col-md-6">
+          <h2>Discover Our Special Collections</h2>
+          <p>
+            Immerse yourself in our special collections featuring rare editions, collector's items, and exclusive signed copies. Explore literary treasures that will delight and inspire every book enthusiast.
+          </p>
+          <p>
+            Whether you're a seasoned collector or just starting your journey, our special collections offer a unique glimpse into the world of literature. Visit us today and embark on a treasure hunt!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
