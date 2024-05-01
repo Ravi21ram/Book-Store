@@ -1,38 +1,40 @@
 # Book-Store
 
-# Book Store Project
+## Book Store Project
 
 Welcome to the Book Store project! This web application allows users to manage a collection of books. Users can add new books with details such as author and price, and then add them to their personal list.
 
-## Technologies Used
+### Technologies Used
 
 - **Spring Boot**: Backend framework for building the RESTful API.
 - **MySQL**: Database to store book and user information.
 - **HTML**: Markup language for creating the user interface.
 - **CSS**: Styling language for enhancing the appearance of the web pages.
 
-## Features
+### Features
 
-- **Add New Book**: Users can add a new book to the store by providing details such as name, author, and price.
-- **View Available Books**: Users can view all the books available in the store.
-- **Add Book to My List**: Users can add a book to their personal list for future reference.
-- **View My List**: Users can view their personal list of books.
+1. **Add New Book**: Users can add a new book to the store by providing details such as name, author, and price.
+2. **View Available Books**: Users can view all the books available in the store.
+3. **Add Book to My List**: Users can add a book to their personal list for future reference.
+4. **View My List**: Users can view their personal list of books.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
+
+Before you begin, make sure you have the following installed:
 
 - Java Development Kit (JDK) 8 or higher
 - Maven
 - MySQL
 
-### Setup Instructions
+#### Setup Instructions
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/yourusername/book-store.git
-2.cd book-store
+2. cd book-store
 3. Set up MySQL database:
 Create a new database named book_store.
 Update the database configurations in src/main/resources/application.properties file according to your MySQL setup.
