@@ -34,14 +34,16 @@ Before you begin, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/book-store.git
+
 2. cd book-store
+
 3. Set up MySQL database:
 Create a new database named book_store.
 Update the database configurations in src/main/resources/application.properties file according to your MySQL setup.
-4.ttp://localhost:8080
+
+4.http://localhost:8082
 
 ![image](https://github.com/Ravi21ram/Book-Store/assets/126138665/c6735f62-34e6-4d53-b7dd-a387071ad8d5)
 ![image](https://github.com/Ravi21ram/Book-Store/assets/126138665/6eb8f663-0e2f-4bd6-b4e5-cb01eae5945c)
 
 
-http://localhost:8082/
